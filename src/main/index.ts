@@ -3,13 +3,13 @@ import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 
-import electronUpdater, { type AppUpdater } from 'electron-updater'
-const getAutoUpdater: () => AppUpdater = () => {
-  const { autoUpdater } = electronUpdater
-  return autoUpdater
-}
+// import electronUpdater, { type AppUpdater } from 'electron-updater'
+// const getAutoUpdater: () => AppUpdater = () => {
+// const { autoUpdater } = electronUpdater
+// return autoUpdater
+// }
 
-getAutoUpdater().checkForUpdatesAndNotify()
+// getAutoUpdater().checkForUpdatesAndNotify()
 
 const baseFlashPath = join(__dirname, '../../resources/flash').replace(
   'app.asar',
