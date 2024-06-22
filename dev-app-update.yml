@@ -1,3 +1,7 @@
 # provider: generic
 # url: https://example.com/auto-updates
 # updaterCacheDirName: cp-client-updater
+owner: ERmilburn02
+repo: cp-client
+provider: github
+updaterCacheDirName: cp-client-updater
